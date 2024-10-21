@@ -12,8 +12,8 @@ export default async function Page() {
   return (
     <>
       <FullWidthHeader
-        title="Categories"
-        description="Browse blog posts by category"
+        title="Sort By Categories"
+        description="Browse CNG articles by category"
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Category", href: `/category/` },
