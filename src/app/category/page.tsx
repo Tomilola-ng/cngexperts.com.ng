@@ -3,7 +3,6 @@ export const revalidate = 60;
 import { wisp } from "@/lib/wisp";
 import Link from "next/link";
 import { FullWidthHeader } from "../../components/FullWidthHeader";
-import { getOgImageUrl } from "@/lib/ogImage";
 
 export default async function Page() {
   const result = await wisp.getTags();
