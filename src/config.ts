@@ -22,17 +22,17 @@ const categories: Category[] = [
     description: "Maintenance tips and troubleshooting for CNG vehicles to ensure optimal performance.",
   },
   {
-    label: "Cost Savings & Economics",
+    label: "Cost & Economics",
     tag: "cost-savings-economics",
     description: "Detailed breakdown of financial benefits and long-term savings when using CNG in Nigeria.",
   },
   {
-    label: "Government Policies & Incentives",
+    label: "Nigeria Government",
     tag: "government-policies-incentives",
     description: "Updates on Nigerian government policies, tax incentives, and regulations surrounding CNG.",
   },
   {
-    label: "Industry News & Trends",
+    label: "News & Trends",
     tag: "industry-news-trends",
     description: "Latest news and trends in CNG adoption both in Nigeria and globally, with future forecasts.",
   },
