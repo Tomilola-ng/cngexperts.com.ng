@@ -15,10 +15,10 @@ export async function generateMetadata({
   params: { tag: string };
 }): Promise<Metadata> {
   return {
-    title: `Blog posts tagged with #${tag}`,
+    title: `Every CNG articles under #${tag} category`,
     description: `List of all blog posts on ${config.organization} tagged with #${tag}`,
     openGraph: {
-      title: `Blog posts tagged with #${tag}`,
+      title: `Every CNG articles under #${tag} category`,
       description: `List of all blog posts on ${config.organization} tagged with #${tag}`,
       images: [getOgImageUrl(`#${tag}`)],
     },
@@ -35,7 +35,7 @@ export default async function Page({
   const category = config.categories.find((c) => c.tag === tag);
   const { label, description } = category || {
     label: `#${tag}`,
-    description: `Blog posts tagged with #${tag}`,
+    description: `Every CNG articles under #${tag} category`,
   };
   const page = searchParams?.page ? parseInt(searchParams.page) : 1;
   const result = await wisp.getPosts({
