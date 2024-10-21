@@ -12,9 +12,10 @@ export const Footer = () => {
         </div>
         <div className="text-xs text-muted-foreground hidden lg:block">
           <Link
-            href={`https://wisp.blog/?utm_source=next-js-template&utm_medium=web&utm_campaign=${config.baseUrl}`}
+            href={`https://www.linkedin.com/in/tomilola-oluwafemi/`}
+            target="_blank"
           >
-            Blog powered by wisp
+            Tomilola Oluwafemi
           </Link>
         </div>
         <Link href="/rss">
