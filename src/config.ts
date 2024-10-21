@@ -7,31 +7,37 @@ interface Category {
 
 const categories: Category[] = [
   {
-    label: "Foundation Model",
-    tag: "foundation-model",
-    description: "Insights on powerful AI models at the foundation of tech.",
+    label: "CNG Conversion",
+    tag: "cng-conversion",
+    description: "Guides on converting vehicles from petrol/diesel to CNG, including costs and processes in Nigeria.",
   },
   {
-    label: "Engineering",
-    tag: "engineering",
-    description: "Innovative engineering driving AI advancements.",
+    label: "CNG Technology",
+    tag: "cng-technology",
+    description: "Insights into the latest advancements and innovations in CNG technology and safety measures.",
   },
   {
-    label: "Jobs",
-    tag: "jobs",
-    description: "Explore AI job trends and opportunities shaping a brighter future.",
+    label: "CNG Maintenance",
+    tag: "cng-maintenance",
+    description: "Maintenance tips and troubleshooting for CNG vehicles to ensure optimal performance.",
   },
   {
-    label: "Startups",
-    tag: "startup",
-    description: "Spotlight on innovative AI startups transforming industries.",
+    label: "Cost Savings & Economics",
+    tag: "cost-savings-economics",
+    description: "Detailed breakdown of financial benefits and long-term savings when using CNG in Nigeria.",
   },
   {
-    label: "Ethics",
-    tag: "ethics",
-    description: "Promoting responsible AI for positive impact.",
+    label: "Government Policies & Incentives",
+    tag: "government-policies-incentives",
+    description: "Updates on Nigerian government policies, tax incentives, and regulations surrounding CNG.",
+  },
+  {
+    label: "Industry News & Trends",
+    tag: "industry-news-trends",
+    description: "Latest news and trends in CNG adoption both in Nigeria and globally, with future forecasts.",
   },
 ];
+
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
